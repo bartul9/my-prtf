@@ -113,15 +113,6 @@ a {
   box-shadow: 0px 0px 10px 15px #03a062;
 }
 
-.two {
-  -webkit-box-shadow: 0px 0px 10px 10px #03a062;
-  box-shadow: 0px 0px 10px 10px #03a062;
-}
-.two:hover {
-  -webkit-box-shadow: 0px 0px 10px 10px #03a062;
-  box-shadow: 0px 0px 10px 15px #03a062;
-}
-
 #imgwidth {
   width: 100%;
   height: auto;
@@ -158,14 +149,16 @@ b {
   font-weight: 500;
 }
 /* Section number two and its components */
-.sectiontwo {
-  margin-top: 25vh;
-  margin-bottom: 15vh;
+#sectionTwo {
+  color: silver;
+  margin: 50px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  letter-spacing: 1px;
 }
-
 /* Footer and its components */
 footer {
-  padding: 0 5%;
+  margin: 50px;
 }
 h6 {
   color: rgb(255, 6, 6);
