@@ -99,12 +99,31 @@ a {
   -webkit-box-shadow: 1px 14px 33px 5px rgb(255, 255, 255);
   box-shadow: 1px 14px 33px 5px #ffffff;
   border-radius: 5px;
+  width: 500px;
+  height: 350px;
 }
 .one {
+  background-image: url(/resize-images/rsz_mygt.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   -webkit-box-shadow: 0px 0px 10px 10px #03a062;
   box-shadow: 0px 0px 10px 10px #03a062;
 }
 .one:hover {
+  -webkit-box-shadow: 0px 0px 10px 10px #03a062;
+  box-shadow: 0px 0px 10px 15px #03a062;
+}
+
+.two {
+  background-image: url(/yokr.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-box-shadow: 0px 0px 10px 10px #03a062;
+  box-shadow: 0px 0px 10px 10px #03a062;
+}
+.two:hover {
   -webkit-box-shadow: 0px 0px 10px 10px #03a062;
   box-shadow: 0px 0px 10px 15px #03a062;
 }
@@ -144,6 +163,28 @@ b {
   color: rgb(7, 255, 81);
   font-weight: 500;
 }
+
+.firstBoxBig {
+  margin-top: 230px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.firstDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+/* icons */
+
+.responsive-img {
+  width: 70px;
+}
+
 /* Section number two and its components */
 #sectionTwo {
   color: silver;
