@@ -92,15 +92,16 @@ a {
 }
 
 .boxes {
+  box-sizing: border-box;
   margin: 20px 0;
-  border: 4px solid rgba(255, 0, 0, 0.664);
+  border: 4px solid rgb(219, 7, 7);
   border-left: 4px solid blue;
   border-right: 4px solid blue;
   -webkit-box-shadow: 1px 14px 33px 5px rgb(255, 255, 255);
   box-shadow: 1px 14px 33px 5px #ffffff;
   border-radius: 5px;
-  width: 500px;
-  height: 350px;
+  width: 400px;
+  height: 250px;
 }
 .one {
   background-image: url(/resize-images/rsz_mygt.png);
