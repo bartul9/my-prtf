@@ -117,7 +117,7 @@ a {
 }
 
 .two {
-  background-image: url(/yokr.PNG);
+  background-image: url(/a.PNG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -125,6 +125,18 @@ a {
   box-shadow: 0px 0px 10px 10px #03a062;
 }
 .two:hover {
+  -webkit-box-shadow: 0px 0px 10px 10px #03a062;
+  box-shadow: 0px 0px 10px 15px #03a062;
+}
+.three {
+  background-image: url(/d.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-box-shadow: 0px 0px 10px 10px #03a062;
+  box-shadow: 0px 0px 10px 10px #03a062;
+}
+.three:hover {
   -webkit-box-shadow: 0px 0px 10px 10px #03a062;
   box-shadow: 0px 0px 10px 15px #03a062;
 }
@@ -292,4 +304,3 @@ h6 {
     top: -10px;
   }
 }
-
