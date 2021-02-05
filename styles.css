@@ -11,6 +11,11 @@ header {
   padding-top: 20vh;
   padding-bottom: 20vh;
 }
+h1 {
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+}
 
 #underhead {
   text-align: center;
@@ -36,7 +41,7 @@ header {
 #topimg {
   position: relative;
   top: -5px;
-  border-radius: 5%;
+  border-radius: 50%;
 }
 /* Navbar color */
 .navbar-custom {
