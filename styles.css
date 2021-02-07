@@ -244,6 +244,13 @@ b {
 
 .responsive-img {
   width: 65px;
+  transition: 400ms;
+}
+
+.responsive-img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transform: scaleX(1.05);
 }
 
 /* Section number two and its components */
