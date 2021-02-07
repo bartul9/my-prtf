@@ -326,7 +326,13 @@ h6 {
     font-size: 19px;
     top: 4px;
   }
-
+  #sectionTwo {
+    margin-left: 10px;
+  }
+  footer {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   #links {
     padding-left: 0px;
   }
