@@ -42,3 +42,17 @@ const mainfunc = function () {
 };
 
 mainfunc();
+
+const header = document.querySelector("header");
+const h1 = document.querySelector("h1");
+const headspan = document.querySelector("#heading--span");
+
+header.addEventListener("mouseenter", function () {
+  h1.style.transform = "skewY(0)";
+  headspan.style.transform = "skewY(0)";
+});
+
+header.addEventListener("mouseleave", function () {
+  h1.style.transform = "skewY(22deg)";
+  headspan.style.transform = "skewY(-22deg)";
+});
