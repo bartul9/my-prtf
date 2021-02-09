@@ -10,11 +10,35 @@ body {
 header {
   padding-top: 20vh;
   padding-bottom: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 h1 {
+  font-size: 40px;
   text-align: center;
   color: white;
   letter-spacing: 1px;
+  background-color: rgba(0, 255, 136, 0.144);
+  width: 300px;
+  transform: skewY(22deg);
+  transition: 500ms;
+}
+
+#heading--span {
+  transition: 500ms;
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #03a06125;
+  background-color: rgba(255, 255, 255, 0.075);
+  transform: skewY(-22deg);
 }
 
 #underhead {
@@ -277,6 +301,8 @@ h6 {
   display: inline;
   font-size: 13px;
   margin-bottom: 15px;
+  background-color: rgba(47, 85, 253, 0.103);
+  padding: 5px;
 }
 #copyright {
   position: relative;
@@ -285,14 +311,16 @@ h6 {
   color: rgb(47, 85, 253);
 }
 #toppage {
-  color: red;
+  color: white;
   float: right;
   text-decoration: none;
   margin-bottom: 15px;
   font-size: 14px;
+  background-color: rgba(255, 0, 0, 0.281);
+  padding: 2px;
 }
 #toppage:hover {
-  color: rgb(47, 85, 253);
+  color: rgba(47, 85, 253, 0.555);
 }
 #git {
   position: relative;
@@ -302,7 +330,6 @@ h6 {
 
 .info {
   color: rgb(47, 85, 253);
-  /* color: red; */
   letter-spacing: 1px;
 }
 
