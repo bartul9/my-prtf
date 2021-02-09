@@ -59,10 +59,10 @@ h1 {
 #links {
   position: relative;
   top: -1px;
-  color: red;
+  color: white;
   letter-spacing: 1px;
   font-size: 17px;
-  font-weight: 500;
+
   padding-left: 20px;
   transition: 250ms;
 }
@@ -195,7 +195,7 @@ h2 {
   text-align: center;
   margin-top: 35vh;
   margin-bottom: 10vh;
-  color: #bbbbbb9c;
+  color: white;
   font-size: 1.5rem;
 }
 
@@ -261,7 +261,7 @@ b {
 
 /* Section number two and its components */
 #sectionTwo {
-  color: silver;
+  color: rgb(255, 255, 255);
 
   margin: 50px;
   margin-top: 200px;
@@ -273,20 +273,26 @@ footer {
   margin: 50px;
 }
 h6 {
-  color: rgb(255, 6, 6);
+  color: red;
   display: inline;
   font-size: 13px;
   margin-bottom: 15px;
 }
 #copyright {
+  position: relative;
+  top: 2.5px;
   font-size: 20px;
   color: rgb(47, 85, 253);
 }
 #toppage {
+  color: red;
   float: right;
   text-decoration: none;
   margin-bottom: 15px;
   font-size: 14px;
+}
+#toppage:hover {
+  color: rgb(47, 85, 253);
 }
 #git {
   position: relative;
@@ -296,6 +302,7 @@ h6 {
 
 .info {
   color: rgb(47, 85, 253);
+  /* color: red; */
   letter-spacing: 1px;
 }
 
