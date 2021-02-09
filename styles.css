@@ -59,7 +59,8 @@ h1 {
 #links {
   position: relative;
   top: -1px;
-  color: rgb(25, 0, 255);
+  color: red;
+  letter-spacing: 1px;
   font-size: 17px;
   font-weight: 500;
   padding-left: 20px;
@@ -67,8 +68,11 @@ h1 {
 }
 
 #links:hover {
+  color: rgb(97, 126, 255);
+  letter-spacing: 1.2px;
+}
+a {
   color: rgb(47, 85, 253);
-  letter-spacing: 1px;
 }
 
 /* Navbar toggler */
@@ -285,6 +289,11 @@ h6 {
   position: relative;
   top: -8px;
   width: 80px;
+}
+
+.info {
+  color: rgb(47, 85, 253);
+  letter-spacing: 1px;
 }
 
 /* Media Queries */
