@@ -32,10 +32,6 @@ h1 {
   position: relative;
   top: 3.5px;
 }
-.navbar-brand:hover {
-  color: blue;
-  transition: 200ms;
-}
 
 /* Navbar image */
 #topimg {
@@ -63,16 +59,16 @@ h1 {
 #links {
   position: relative;
   top: -1px;
-  color: red;
+  color: rgb(25, 0, 255);
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 500;
   padding-left: 20px;
+  transition: 250ms;
 }
 
 #links:hover {
-  color: blue;
+  color: rgb(47, 85, 253);
   letter-spacing: 1px;
-  transition: 250ms;
 }
 
 /* Navbar toggler */
@@ -259,6 +255,7 @@ b {
 /* Section number two and its components */
 #sectionTwo {
   color: silver;
+
   margin: 50px;
   margin-top: 200px;
   margin-bottom: 200px;
@@ -296,7 +293,7 @@ h6 {
   #links {
     position: relative;
     top: 0px;
-    color: red;
+    color: rgb(25, 0, 255);
     font-size: 15px;
     font-weight: 500;
     left: 50px;
