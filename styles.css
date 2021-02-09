@@ -47,11 +47,12 @@ h1 {
 }
 /* Navbar color */
 .navbar-custom {
-  background-color: rgb(37, 37, 37);
+  background-color: rgba(37, 37, 37, 0.671);
+  min-height: 50px;
+  transition: 250ms;
 }
 /* Collapsing animation of navbar */
 .collapsing {
-  transition: 350ms;
   animation-timing-function: ease-in-out;
 }
 
