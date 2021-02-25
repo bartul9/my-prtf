@@ -4,6 +4,7 @@ const box1 = document.querySelector(".one");
 const box2 = document.querySelector(".two");
 const box3 = document.querySelector(".three");
 const box4 = document.querySelector(".four");
+const box5 = document.querySelector(".five");
 ////
 
 const main = document.querySelector(".main");
@@ -25,6 +26,7 @@ changeImages(box1);
 changeImages(box2);
 changeImages(box3);
 changeImages(box4);
+changeImages(box5);
 
 const mainfunc = function () {
   main.addEventListener("mouseenter", function () {
