@@ -1,3 +1,3 @@
 # My porfolio
 
-I have built this portfolio for pure fun and joy, it is not finished yet, but it will be soon :)
+My portfolio site where you can see some of my best works and some more information about me.
