@@ -7,6 +7,7 @@ const box4 = document.querySelector(".four");
 const box5 = document.querySelector(".five");
 ////
 
+const aboutMe = document.querySelector("#aboutMe");
 const main = document.querySelector(".main");
 
 const changeImages = function (object) {
@@ -39,14 +40,11 @@ const mainfunc = function () {
       main.style.color = "#03a062";
     }, 4000);
   });
-  //   main.addEventListener("mouseout", function () {
-  //     main.style.opacity = 0;
-  //     main.style.color = "#03a062";
-  //   });
 };
 
 mainfunc();
 
+/////
 const header = document.querySelector("header");
 const h1 = document.querySelector("h1");
 const headspan = document.querySelector("#heading--span");
